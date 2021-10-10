@@ -1,0 +1,228 @@
+body
+{
+    background: #efefef;
+    margin: auto;
+    
+}
+.topnav
+{
+    overflow: hidden;
+    background-color:rgb(6 7 51);
+    
+}
+h1{
+    color: chocolate;
+}
+.topnav a
+{
+    /* float: left; */
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 14px 14px 14px 14px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.topnav a.active
+{
+    background-color: orange;
+    color: white;
+}
+.topnav button
+{
+    float: left;
+    color: black;
+    background-color: inherit;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 14px 14px 14px 14px;
+    border: none;
+    outline: none;
+}
+.topnav button:hover
+{
+    color: chocolate;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.navbar
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#Home
+{
+    /*display: flex;
+    flex-wrap: wrap;*/
+    text-align: center;
+}
+#About
+{
+    display: none;
+}
+#Education
+{
+    display: none;
+}
+#Publications
+{
+    display: none;
+}
+.round-img
+{
+    border-radius: 50%;
+    border: 0;
+    width: 200px;
+    height: 200px;
+    margin: 20px 40px 20px 20px;
+}
+.feature
+{
+    padding-top: 10px;
+    overflow: auto;
+}
+.firstp
+{
+    padding-top: 20px;
+}
+table,th,tr,td
+{
+    border:1px solid black;
+}
+.footer
+{
+    position:fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 80px;
+    background: #535151;
+    color: white;
+}
+footer
+{
+    padding: 20px;
+}
+footer p
+{
+    float: left;
+}
+#date
+{
+    float: right;
+}
+.icon
+{
+    font-size: 40px;
+    color: white;
+    margin-right: 15px;
+}
+.icon:hover
+{
+    color: chocolate;
+}
+.flex-item-left {
+    padding: 10px;
+    flex: 20%;
+  }
+  
+  .flex-item-right {
+    padding: 10px;
+    flex: 60%;
+  }
+@media screen and (max-width: 700px){
+    .topnav a, .main
+    {
+        flex-direction: column;
+    }
+    .footer
+{
+    height: auto !IMPORTANT;
+}
+}
+
+
+/* Additional css*/
+@media screen and (min-width: 900px){
+
+    table {
+    width: 57%;
+    position: relative;
+    left: 207px;
+}
+.round-img {
+  
+    max-width: 200px;
+    max-height: 200px;
+
+    }
+    ul.navbar {
+    float: right;
+    display: flex;
+}
+ul.navbar li button {
+    color: white;
+}
+.header-total {
+    max-width: 1130px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+}
+.header-content {
+    max-width: 50%;
+    flex: 0 0 50%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.header-logo {
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+.header-logo h3 {
+    color: white;
+}
+div.courses {
+    display: flex !important;
+}
+div.courses .feature {
+    max-width: 48%;
+    margin-right: 10px;
+    margin-left: 10px;
+    flex: 0 0 48%;
+}
+
+}
+
+
+    div.courses .feature {
+    
+    margin-right: 10px;
+    margin-left: 10px;
+    
+    text-align: center;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+}
+
+.page-wrapper {
+    max-width: 1130px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 40px;
+}
+
+th, td {
+    padding: 10px;
+}
+div#About {
+    text-align: center;
+}
+table {
+    width: 100%;
+}
