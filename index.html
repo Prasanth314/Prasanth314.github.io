@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"  href="./styles/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body>
+
+        
+        <div class="topnav">
+            <div class="header-total">
+                <div class="header-logo">
+                    <h3>PRASHANTH<br>DUSTAKAR</h3>
+                </div>
+                <div class="header-content">
+            <ul class="navbar">
+                <li>
+                    <button onclick="onlydisplay('Home')">Home</button>
+                </li>
+                <li>
+                    <button onclick="onlydisplay('About')">About</button>
+                </li>
+                <li>
+                    <button onclick="onlydisplay('Education')">Education</button>
+                </li>
+                <li>
+                    <button onclick="onlydisplay('Publications')">Publications</button>
+                </li>
+            </ul></div>
+        </div>
+        </div>
+        <div class="page-wrapper">
+        <div class="main">
+            <div id="Home">
+                <div class="flex-item-left"><img class="round-img" src="https://media-exp1.licdn.com/dms/image/C5603AQGjPVukvma2Sw/profile-displayphoto-shrink_800_800/0/1625765245006?e=1637798400&v=beta&t=MgzB2PGLltnJdGPP4GUtyP20PR48Vt7lyVk0PTNka9M" alt="Profile pic">
+                </div>
+                <div class="flex-item-right">
+                <p class="firstp"> Hi This is Prasanth Rao</p>
+                <p>I dont have much content to write...
+                    
+                </p>
+            </div> 
+            </div>
+            <div id="About">
+                <p>This is About page</p>
+                <table>
+                    <tr>
+                        <th> Duration </th>
+                        <th> Exams </th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Febrauary </td>
+                        <td> Gate</td>
+                    </tr>
+                    <tr> 
+                        <td> TIFR</td>
+                    </tr>
+                    <tr>
+                        <td> April </td>
+                        <td> IIIT Hyderabad</td>
+                    </tr>
+                </table>
+                <a href="https://drive.google.com/file/d/1pU4sQnNUP-Brg4EcV1pSjKX6X5ex7Jma/view?usp=sharing" > Here is my CV </a>
+            </div>
+            <div id="Education">
+                <div class="courses">
+                <div class="feature">
+                    <img class="round-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGzYWZenyse8619CW79Xssgr2913YDJuyNg&usqp=CAU" alt="IIITH">
+                    <p class="firstp">Studying at <a href="https://www.iiit.ac.in/" target="_blank">IIIT Hyderabad</a> (2021-present)</p>
+                </div>
+                <div class="feature">
+                    <img class="round-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToH-VOGooOLs_rCh_n2mMxUiOTJXkbj5F8Bw&usqp=CAU" alt="snist">
+                    <p class="firstp">Studied at <a href="https://www.sreenidhi.edu.in/" target="_blank">SNIST Hyderabad</a> (2016-2020)</p>
+                </div>
+            </div>
+            </div>
+            <div id="Publications">
+                <h1>Publications</h1>
+                <h3>A comparative study between Hungarian and Antcolony optimization algroithm for task scheduling in Cloud</h3>
+                <p>
+                    cloud computing is upcoming and evolving technologies in this era. Using cloud the capital
+                    expenditure is reduced. Many companies move towards cloud to reduce capital expenditure and
+                    operational cost. Task scheduling is the process of allocating tasks to the resources available. There are
+                    different types of task scheduling algorithms. In this paper, we use Hungarian method to allocate tasks
+                    to the resources, and compare with ant colony optimization. We also check the time and space
+                    complexities.
+                </p>
+                <h3>
+                    Classifying Fake News Articles Using Machine Learning Techniques
+                </h3>
+                <p>
+                    News is important in daily life as it informs our view to the world and in response, we take actions and
+                    make choices in various aspects. Gradually, the tendency
+                    towards online news is increasing as it is more concise
+                    and is available at the finger tips. There has been large
+                    generation of deceptive content worldwide that has an
+                    effect on the formation of opinions, making decisions
+                    and voting trends. Most of the 'fake news' is initially
+                    circulated through social media networks such as
+                    Twitter, Facebook, and then makes the way into
+                    mainstream media outlets such as Radio and TV. The
+                    fake news articles share linguistic features such as heavy
+                    use of quoted material. In this use case, the results of
+                    fake news detection test and the performance of fake
+                    news classifiers is discussed. The aim is to build a new
+                    fake news detector using classifiers like Logistic
+                    Regression, Decision tree classification, Multinomial
+                    Naive Bayes classification.
+                </p>
+            </div>
+            
+        </div> </div>
+        <div class="footer">
+            <footer>
+                    <a class="icon" href="mailto:dustakarprasanth@gmail.com"><i class="fa fa-envelope"></i></a>
+                    <a class ="icon" href="https://github.com/Prasanth314" target="_blank"><i class="fa fa-github"></i></a>
+                    <a class ="icon" href="https://www.linkedin.com/in/prasanth-dustakar-aa9718129/" target="_blank"><i class="fa fa-linkedin-square icon"></i></a>
+                    
+                    
+                <p id="date" onload="changedate()">  </p>
+            </footer>
+        </div>
+   
+        <script src="./scripts/myscript.js"></script>
+    </body>
+</html>
